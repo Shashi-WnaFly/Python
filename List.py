@@ -48,3 +48,31 @@ print(list1.count(9))
 
 list1.reverse()
 print(list1)
+
+# _________________________/________/___________/ _______________
+# list practice
+import random
+
+l1 = [1, 9, 1, 6, 3, 4, 5, 1, 1, 2, 5, 6, 7, 8, 9, 2]
+l2 = []
+for x in l1:
+  if x not in l2:
+    l2.append(x)
+
+sumL1 = 0
+for i in l1:
+  sumL1 += i
+
+sumL2 = 0
+for j in l2:
+  sumL2 += j
+
+print(sumL1)
+print(sumL2)
+
+l3 = []
+for i in range(5):
+  x = random.randint(0, 50)
+  l3.append(x)
+
+print(l3)
